@@ -32,3 +32,5 @@ If you are on a terminal session, execute the below command in the same director
 ```
 sudo chmod +x scrape.py
 ```
+2)The program takes a long time to start.  
+The program requires an active internet connection to download some neccessary python packages during first startup so it may take some time for the first launch.There will be no delays in the future once it completes the installation. 
