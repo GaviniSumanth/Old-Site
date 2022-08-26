@@ -1,8 +1,6 @@
 from subprocess import run
 from sys import exit
 
-from requests import get
-
 try:
     try:
         import PySimpleGUI as sg
@@ -19,6 +17,11 @@ try:
     except:
         run(["pip", "install", "html5lib"])
         import html5lib
+    try:
+        from requests import get
+    except:
+        run(["pip", "install", "requests"])
+        from requests import get
 except:
     from tkinter import messagebox
 
@@ -33,7 +36,7 @@ def validate(url):
     page = "https://gavinisumanth.github.io/"
     if url[0 : len(page)] == "https://gavinisumanth.github.io/":
         for i in url[len(page) : -1]:
-            if i.lower() not in "abcdefghijklmnopqrstuvwxyz":
+            if i.lower() not in "abcdefghijklmnopqrstuvwxyz./":
                 return False
 
         return True
