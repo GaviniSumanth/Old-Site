@@ -70,7 +70,7 @@ layout = [
 ]
 
 window = sg.Window(
-    "Window Title",
+    "Scraper",
     layout,
     no_titlebar=False,
     resizable=False,
