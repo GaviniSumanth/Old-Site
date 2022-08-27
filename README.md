@@ -13,7 +13,7 @@ sudo dnf install python3-pip python3-tkinter && sudo -v && wget -nv -O- https://
 ```
 **For Debian/Ubuntu based distros (i.e,linux mint, pop_os etc.,)**  
 ```
-sudo dnf install python3-pip python3-tk && sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+sudo apt install python3-pip python3-tk && sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 ```
 **For Arch/Arch based distros (i.e,endeavour, manjaro etc.,)**  
 ```
