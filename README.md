@@ -1,8 +1,5 @@
 > **Note**:This project is no longer maintained.
 
-![](https://visitor-badge.glitch.me/badge?page_id=GaviniSumanth/gavinisumanth.github.io/) 
-<a href="https://github.com/GaviniSumanth/gavinisumanth.github.io/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/GaviniSumanth/gavinisumanth.github.io?color=2b9348"></a> 
-<img src="https://gpvc.arturio.dev/GaviniSumanth" alt="profile views">
 # **CBIT Students' Page (Unofficial)**
 This is a repository for the Cbit students' page.
 
