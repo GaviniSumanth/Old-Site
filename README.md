@@ -24,16 +24,19 @@ sudo pacman -S python-pip tk && sudo -v && wget -nv -O- https://download.calibre
 wget  https://raw.githubusercontent.com/GaviniSumanth/gavinisumanth.github.io/main/scrape.py
 ```
 **Step-3:** Execute it
-Execute the script to download the content of the webpage in a kindle e-reader supporeted format.
+
+Execute the script to download the content of the webpage in a kindle e-reader supported format.
   
   
 ## **Troubleshooting:**  
-1)I am unable to execute it.  
-A)Check if your linux distribution allows user to execute scripts.If it is disabled then you can modify it by right clicking on scape.py and  changing it in the properties (Assuming that you are using a file manager with a gui).  
+1) I am unable to execute it. 
+
+Check if your linux distribution allows user to execute scripts.If it is disabled then you can modify it by right clicking on scape.py and  changing it in the properties (Assuming that you are using a file manager with a gui).  
   
-If you are on a terminal session, execute the below command in the same directory where the scrape.py file is located to make it executable.
+  If you are in a terminal session, execute the below command in the same directory where the scrape.py file is located to make it executable.
 ```
-sudo chmod +x scrape.py
+  sudo chmod +x scrape.py
 ```
-2)The program takes a long time to start.  
-A)The program requires an active internet connection to download some neccessary python packages during first startup so it may take some time for the first launch.There will be no delays in the future once it completes the installation. 
+2) The program takes a long time to start.  
+
+  The program requires an active internet connection to download some neccessary python packages during first startup so it may take some time for the first launch.There will be no delays in the future once it completes the installation. 
